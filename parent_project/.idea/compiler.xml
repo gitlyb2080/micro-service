@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true">
+          <entry name="D:/idea_maven/ec_repository/org/mapstruct/mapstruct-processor/1.1.0.Final/mapstruct-processor-1.1.0.Final.jar" />
+          <entry name="D:/idea_maven/ec_repository/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/mapstruct/mapstruct/1.1.0.Final/mapstruct-1.1.0.Final.jar" />
+          <entry name="D:/idea_maven/ec_repository/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/assertj/assertj-core/3.5.2/assertj-core-3.5.2.jar" />
+          <entry name="D:/idea_maven/ec_repository/com/google/guava/guava/19.0/guava-19.0.jar" />
+          <entry name="D:/idea_maven/ec_repository/com/puppycrawl/tools/checkstyle/6.14.1/checkstyle-6.14.1.jar" />
+          <entry name="D:/idea_maven/ec_repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="D:/idea_maven/ec_repository/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="D:/idea_maven/ec_repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar" />
+        </processorPath>
+        <module name="config-server" />
+        <module name="eureka-sever" />
+        <module name="feign" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-feign" />
+        <module name="hystrix-ribbon" />
+        <module name="pai-core-rest" />
+        <module name="ribbon" />
+        <module name="service-A" />
+        <module name="service-admin" />
+        <module name="service-B" />
+        <module name="service-B2" />
+        <module name="sleuth" />
+        <module name="turbine" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.7" />
+      <module name="eureka-sever" target="1.7" />
+      <module name="feign" target="1.7" />
+      <module name="hystrix-dashboard" target="1.7" />
+      <module name="hystrix-feign" target="1.7" />
+      <module name="hystrix-ribbon" target="1.7" />
+      <module name="micro-service" target="1.6" />
+      <module name="parent_project" target="1.5" />
+      <module name="ribbon" target="1.7" />
+      <module name="service-A" target="1.7" />
+      <module name="service-admin" target="1.7" />
+      <module name="service-B" target="1.7" />
+      <module name="service-B2" target="1.7" />
+      <module name="sleuth" target="1.7" />
+      <module name="turbine" target="1.7" />
+      <module name="zuul" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

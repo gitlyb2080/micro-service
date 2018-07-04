@@ -1,0 +1,15 @@
+server:
+  port: 7072
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://106.12.34.183/liuyunbing/dd.git
+          searchPaths: config
+          username: mhliuyunbing@163.com
+          password: qazwsx123
